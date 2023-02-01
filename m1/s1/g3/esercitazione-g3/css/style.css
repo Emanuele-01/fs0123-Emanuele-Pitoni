@@ -1,0 +1,39 @@
+.testo-iniziale{
+    background-color:rgba(255, 221, 0, 0.1);
+    border-top: 1px solid;
+    border-color: rgb(255, 221, 0);
+}
+.sottotitolo-immagine{
+    opacity: 0.5;
+}
+.containar-descrizione{
+    border-left: 1px solid;
+    padding: 0 1.2em;
+    border-color: orange;
+    font-size: small;
+}
+.descrizione{
+    color: rgb(188, 91, 1);
+}
+.sottotitolo-descrizione{
+    color: rgb(1, 126, 118);
+}
+.titolo-ingredienti{
+    border-bottom: 1px solid;
+    border-color: aqua;
+    font-size: 1.5em;
+    padding: 1.2em;
+    font-weight: 200;
+}
+.contenitore{
+    font-size: small;
+}
+.titolo-metodo{
+    font-size: 1.2em;
+}
+.testo.metodo{
+    margin: 0 2em;
+}
+.link-finale{
+    color: rgb(1, 126, 118);
+}

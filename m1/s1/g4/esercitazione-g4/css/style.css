@@ -134,7 +134,7 @@ table tr:nth-of-type(even) {
 
 iframe {
     margin: 0 auto;
-    border-radius: 5px;
+    border-radius: 20px;
     width: 100%;
 }
 /* FORM */

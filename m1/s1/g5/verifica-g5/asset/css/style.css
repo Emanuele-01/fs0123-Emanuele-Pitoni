@@ -1,0 +1,178 @@
+/* Your styles here */
+/* IMPOSTAZIONI GENERALI*/
+img{
+    max-width: 100%;
+}
+
+/* HEADER */
+header{
+    font-family: 'Open Sans', sans-serif;
+}
+#logo{
+    padding:0 50px;
+    background-color: black;
+    padding: 0 0 20px 0;
+}
+.logo-img{
+    text-align: center;
+    overflow:auto;
+    width: 50%;
+    height: 50%;
+    margin: 0 75px 40px 75px;
+}
+    
+#cover{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 65px;
+}
+.containar-header{
+    padding: 0 50px;
+    margin: 0 auto;
+}
+.titolo-header{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+.paragrafo-header{
+    font-size: 1.5em;
+    text-align:center;
+    line-height: 1.8em;
+    opacity: 0.7;
+    margin-bottom: 35px;
+}
+.link-header{
+    text-align:center;
+    padding: 10px 0 25px 0;
+
+}
+#link-header{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #f04c2f;
+    padding: 10px 35px;
+    background-color: #f04c2f;
+    border-radius: 4px;
+}
+
+/* MAIN */
+main{
+    font-family: 'Open Sans', sans-serif;
+}
+.containar-main{
+    padding: 0 50px;
+    margin: 0 auto 35px 0;    
+}
+.titolo-main{
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+.paragrafo-main{
+    text-align: center;
+    font-size: 1.4em;
+    opacity: 0.6;
+    line-height: 1.8em;
+}
+#img-main{
+    border-radius: 100%;
+    margin-bottom: 45px;
+    margin-left: 45px;
+    width: 75%;
+}
+.garanzia-epicode{
+    background-color: #f04c2f;
+    padding: 70px 0 30px 0;
+    margin-bottom: 75px;
+}
+.titolo-garanzia{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.paragrafo-garanzia{
+    color: white;
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 1.8em;
+}
+.titolo2-garanzia{
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+.paragrafo2-garanzia{
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 5px;
+    line-height: 1.8em;
+}
+
+/* ASIDE */
+aside{
+    font-family: 'Open Sans', sans-serif;
+}
+.containar-article{
+    border: 1px solid #dee1e3;
+    margin: 20px 60px 20px 30px;
+    border-radius: 4px;
+}
+.titolo-article{
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.paragrafo-article{
+    text-align: center;
+    padding: 0 20px 40px 20px;
+    line-height: 1.8em;
+    opacity: 0.6;
+}
+.ultimo{
+    margin-bottom: 70px;
+}
+/* FOOTER */
+
+footer{
+    background-color: #25a2c3;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 70px;
+}
+.titolo-footer{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+.contatti-footer{
+    color: white;
+    text-align: center;
+    line-height: 1.8em;
+}
+#line{
+    border: 0.5px solid white;
+    width: 200px;
+    margin: 30px 0 30px 125px;
+}
+.crediti{
+    font-size: 0.8em;
+}

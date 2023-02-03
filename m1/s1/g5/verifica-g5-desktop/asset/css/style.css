@@ -9,16 +9,15 @@ header{
     font-family: 'Open Sans', sans-serif;
 }
 #logo{
-    padding:0 50px;
+    padding:10px 0 10px 0;
     background-color: black;
-    padding: 0 0 20px 0;
 }
 .logo-img{
     text-align: center;
     overflow:auto;
-    width: 50%;
-    height: 50%;
-    margin: 0 75px 40px 75px;
+    width: 10%;
+    height: 10%;
+    margin: 0 75px 10px 30px;
 }
     
 #cover{
@@ -36,7 +35,7 @@ header{
     color: #25a2c3;
     font-family: 'Montserrat', sans-serif;
     text-align:center;
-    padding-top: 30px;
+    padding-top: 100px;
     margin-bottom: 20px;
     font-size: 2em;
 }
@@ -49,7 +48,7 @@ header{
 }
 .link-header{
     text-align:center;
-    padding: 10px 0 25px 0;
+    padding: 10px 0 80px 0;
 
 }
 #link-header{
@@ -170,8 +169,8 @@ footer{
 }
 #line{
     border: 0.5px solid white;
-    width: 200px;
-    margin: 30px 0 30px 125px;
+    width: 300px;
+    margin: 30px 0 30px 375px;
 }
 .crediti{
     font-size: 0.8em;

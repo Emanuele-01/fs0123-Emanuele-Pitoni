@@ -12,9 +12,9 @@ header{
     padding:0 50px;
     background-color: black;
     padding: 0 0 20px 0;
+    text-align: center;
 }
 .logo-img{
-    text-align: center;
     overflow:auto;
     width: 50%;
     height: 50%;
@@ -83,11 +83,15 @@ main{
     opacity: 0.6;
     line-height: 1.8em;
 }
+
 #img-main{
     border-radius: 100%;
     margin-bottom: 45px;
     margin-left: 45px;
     width: 75%;
+}
+#img-main2{
+    border-radius: 100%;
 }
 .garanzia-epicode{
     background-color: #f04c2f;
@@ -126,10 +130,11 @@ main{
 /* ASIDE */
 aside{
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 .containar-article{
     border: 1px solid #dee1e3;
-    margin: 20px 60px 20px 30px;
+    margin: 20px 30px 20px 30px;
     border-radius: 4px;
 }
 .titolo-article{

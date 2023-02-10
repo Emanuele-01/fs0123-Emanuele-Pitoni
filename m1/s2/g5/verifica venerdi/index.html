@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <main>
+            <div class="calcolatrice">
+
+                <div class="Display">
+                    <input id="display" class="Display" type="text">
+                </div>
+                <div class="containar">
+                    <button data-simbolo="7" class="colonna" onclick="Simbolo(this)">7</button>
+                    <button data-simbolo="8" class="colonna" onclick="Simbolo(this)">8</button>
+                    <button data-simbolo="9" class="colonna" onclick="Simbolo(this)">9</button>
+                    <button data-simbolo="/" class="colonna" onclick="Simbolo(this)">:</button>
+                    <button data-simbolo="4" class="colonna" onclick="Simbolo(this)">4</button>
+                    <button data-simbolo="5" class="colonna" onclick="Simbolo(this)">5</button>
+                    <button data-simbolo="6" class="colonna" onclick="Simbolo(this)">6</button>
+                    <button data-simbolo="*" class="colonna" onclick="Simbolo(this)">x</button>
+                    <button data-simbolo="1" class="colonna" onclick="Simbolo(this)">1</button>
+                    <button data-simbolo="2" class="colonna" onclick="Simbolo(this)">2</button>
+                    <button data-simbolo="3" class="colonna" onclick="Simbolo(this)">3</button>
+                    <button data-simbolo="-" class="colonna" onclick="Simbolo(this)">-</button>
+                    <button data-cancella=" " class="colonna" onclick="cancella(this)">C</button>
+                    <button data-simbolo="0" class="colonna" onclick="Simbolo(this)">0</button>
+                    <button data-simbolo="." class="colonna" onclick="Simbolo(this)">.</button>
+                    <button data-simbolo="+" class="colonna" onclick="Simbolo(this)">+</button>
+                    <div class="uguale">
+                    <button class="colonna uguale" onclick="uguale()">=</button>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </main>
+        <script src="./js/script.js"></script>
+    </body>
+</html>

@@ -89,28 +89,51 @@ function check3and7(b1){
 }
 
 console.log(check3and7(-6));
+
 /* ESERCIZIO 7
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+function reverseString (b2){
+    let arr = b2.split("");
+    let reverce = arr.reverse();
+    let reverceString = reverce.join("");
+    return reverceString;
+}
+console.log(reverseString("ciao"));
 /* ESERCIZIO 8
  Scrivi una funzione di nome "upperFirst", che riceve come parametro una stringa formata da diverse parole.
  La funzione deve rendere maiuscola la prima lettera di ogni parola contenuta nella stringa.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+function upperFirst(b4){
+    let arr = b4.split("");
+    let string = arr.join("");
+    let upperString = string[0].toUpperCase() + string.slice (1);
+    return upperString
+}
+console.log(upperFirst("ciao"));
 /* ESERCIZIO 9
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
  della stringa originale.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+function cutString(c4){
+    let arr = c4.split("");
+    let string = arr.join("");
+    let upperString = string.slice (1, -1);
+    return upperString;
+}
+console.log(cutString("comeStai"));
 /* ESERCIZIO 10
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+function giveMeRandom(n){
+    let array = [];
+    for(i=0 ; i <= n ; i++){
+        array.push(Math.floor(Math.random()* 11));
+    }
+    return array;
+}
+console.log(giveMeRandom(160));

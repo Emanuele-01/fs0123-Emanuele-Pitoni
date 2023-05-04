@@ -1,0 +1,218 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Spectral', serif; */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+/* header */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #ffc017;
+    border-bottom: 1px solid #191919;
+}
+.input-nav-header{
+    color: #191919;
+    text-decoration: none;
+    margin-inline: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+}
+.button-nav-header{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border: none;
+    background-color: #191919;
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+    margin-left: 15px;
+}
+.containar-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffc017;
+    border-bottom: 1px solid #191919;
+}
+.containar-header-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin:5% 0 5% 10%;
+}
+.heading-header{
+    color:#191919 ;
+    font-size : 4em;
+    font-family: 'Spectral', serif;
+    margin-bottom: 15px;
+}
+.paragraph-header{
+    color: #191919;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+.button-header{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: #191919;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+}
+
+/* main */
+.containar-top{
+    border-bottom: 1px solid #191919;
+}
+.treading-main{
+    margin:20px 0 5% 10%;
+}
+.treading-main p{
+    display: inline-block;
+    vertical-align: 50%;
+}
+.section-top-main{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 10%;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.section2-top-main{
+    display: flex;
+    margin: 10px;
+}
+.section-number-top{
+    margin-right:10px;
+    font-family: 'Roboto', sans-serif;
+}
+.section-text-top{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+.number-top{
+    color: #191919;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    opacity: 0.5;
+    font-size: 1.6em;
+}
+.heading1-top{
+    color: #191919;
+    font-size: 0.7em;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.heading2-top{
+    color: #191919;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.paragraph1-top{
+    color: #191919;
+    font-size: 0.7em;
+    opacity: 0.7;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.img-section-top{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px ;
+    border-radius: 100%;
+}
+.img2-section-top{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px ;
+    border-radius: 2px;
+}
+.containar-middle{
+    display: flex;
+}
+.containar-right-middle{
+    display: flex;
+    margin:10% 0 10% 20%;
+}
+.text-middle{
+    display: flex;
+    flex-direction: column;
+}
+.heading1-middle{
+    font-size: 0.7em;
+    font-family: 'Roboto', sans-serif;
+    color: #191919;
+    margin-bottom: 10px;
+}
+.heading2-middle{
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #191919;
+    margin-bottom: 10px;
+}
+.paragraph1-middle{
+    font-size: 0.8em;
+    font-family: 'Roboto', sans-serif;
+    color: #191919;
+    margin-bottom: 10px;
+}
+.paragraph2-middle{
+    font-size: 0.8em;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #191919;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+.button1-middle{
+    border: none;
+    text-align: center;
+    font-size: 0.4em;
+    width: 20%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.data-middle{
+    display: flex;
+}
+.containar-right{
+    margin:5% 5% 0% 5%;
+}
+.heading-footer{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.fila-button1{
+    margin-bottom: 5px;
+}
+.containar-button-footer{
+    margin-bottom: 50px;
+}
+.button-footer{
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #191919;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+}
+.ancora-footer{
+    font-family: 'Roboto', sans-serif;
+    color: #191919;
+    text-decoration: none;
+    margin-inline: 2px;
+    margin-top: 5px;
+    opacity: 0.8;
+}
+.containar-ancora-footer{
+    border-top: 1px solid #191919;
+}
+
+
+/* non sono riuscito a fnire per questione di tempo cercherò di finire questo fine settimana */

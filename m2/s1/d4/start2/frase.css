@@ -1,0 +1,114 @@
+/*
+1 creazione del testo e formattazione di 1 parola da far ruotare
+2 inserimento delle altre 2 parole
+3 sovrapporre le 3 parole
+4 mostrare 1 parola e nascondere le altre 2
+5 animare 1 parola (fadein - fadeout con spostamento)
+6 animare le altre 2 parole
+7 ritardare progressivamente l'animazione delle altre 2 parole 
+*/
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient();
+    background-image: linear-gradient(175deg, black, grey, transparent);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Bree Serif';
+}
+#testoAlternato{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    display: flex;
+    margin-top: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parole{
+    position: relative;
+}
+#parola_1{
+    position: absolute;
+    animation-name: parola1;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    width: 240px;
+}
+#parola_2{
+    position: absolute;
+    animation-name: parola2;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    width: 250px;
+}
+#parola_3{
+    position: absolute;
+    animation-name: parola3;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    width: 180px;
+}
+
+@keyframes parola1{
+    0%{
+        opacity: 0;
+    }
+    11.1%{
+        opacity: 1;
+    }
+    22.2%{
+        opacity: 0;
+    }
+    33.3%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes parola2{
+    0%{
+        opacity: 0;
+    }
+    33.3%{
+        opacity: 0;
+    }
+    44.4%{
+        opacity: 1;
+    }
+    55.5%{
+        opacity: 1;
+    }
+    66.6%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes parola3{
+    0%{
+        opacity: 0;
+    }
+    66.6%{
+        opacity: 0;
+    }
+    77.7%{
+        opacity: 1;
+    }
+    88.8%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}

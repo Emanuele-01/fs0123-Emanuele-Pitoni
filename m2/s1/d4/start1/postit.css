@@ -1,0 +1,63 @@
+        *,
+        *::after,
+        *::before {
+            box-sizing: border-box;
+        }
+body{
+    background-color: gray;
+}
+.fila-1{
+    display: flex;
+    justify-content: center;
+}
+.fila-2 {
+    display: flex;
+    justify-content: center;
+}
+.post-it-yellow{
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    background-color: yellow;
+    margin: 5px;
+    margin-top: 100px;
+    transform: rotate(6deg);
+    padding-top: 60px;
+    box-shadow: 10px 5px 5px black;
+}
+.post-it-green{
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    background-color: green;
+    margin: 5px;
+    margin-top: 100px;
+    transform: rotate(-6deg);
+    padding-top: 60px;
+    box-shadow: 10px 5px 5px black;
+}
+.post-it-red{
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    background-color: red;
+    margin: 5px;
+    margin-top: 100px;
+    transform: rotate(6deg);
+    padding-top: 60px;
+    box-shadow: 10px 5px 5px black;
+}
+.testo{
+    font-family: 'Tilt Prism', cursive;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+.paragrafo{
+    font-family: 'Tilt Prism', cursive;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.post-it-yellow:hover, .post-it-green:hover, .post-it-red:hover{
+    transform:perspective(30px) translateZ(5px);
+    z-index: 1;
+}

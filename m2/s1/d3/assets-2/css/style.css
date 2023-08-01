@@ -1,0 +1,103 @@
+/* header */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 100vh;
+}
+.containar_header{
+    width: 20%;
+    height: 100%;
+    background-color: #fef7e2;
+}
+.containar_1_header{
+    display: flex;
+    justify-content: center;
+}
+#button_shop img{
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+#button_shop span{
+    font-size: medium;
+    font-weight: bold;
+    color: #732104;
+}
+#button_shop{
+    border: none;
+    background-color:#ffdf7f ;
+    padding:20px 60px 20px 60px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.containar_2_header{
+    display: flex;
+    justify-content: center ;
+}
+.button_header_children{
+    background-color:#ffdf7f ;
+    font-weight: bold;
+    border: none;
+    padding:10px 25px 10px 25px;
+    border-radius: 50px;
+    margin: 8px;
+    color: #732104;
+}
+.long_text{
+    font-size: 0.8em;
+}
+
+
+/* main */
+h1{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bolder;
+    color: #732104;
+    margin-top: 50px;
+    font-size: 3em;
+}
+h3{
+    text-align: center;
+    font-weight: bolder;
+    color: #732104;
+    font-size: 1.5em;
+}
+.containar_1_section p{
+    text-align: center;
+    font-weight: bolder;
+    color: #732104;
+    font-size: 1.2em;
+}
+section{
+    width: 80%;
+    border-radius: 50px;
+    background-color: #fef7e2;
+    background-image: url(../imgs/honey.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin:30px auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.containar_1_section{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.containar_2_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+/* non sono risuscito a finire l'esercitazione per via della lungezza e per problemi con il codice cercherò di recuperare durante il fine settimana  */

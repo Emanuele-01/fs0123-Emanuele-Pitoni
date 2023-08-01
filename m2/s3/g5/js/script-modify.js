@@ -16,7 +16,7 @@ const push = async (event) => {
     try{
 
         let market = fetch("https://striveschool-api.herokuapp.com/api/product/", { 
-            method : 'post',
+            method : 'POST',
             body: JSON.stringify(newObj),
             headers: { 
                 'Content-Type' : "application/json",

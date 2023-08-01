@@ -1,6 +1,7 @@
 let ApiCaricamento = async () => {
     try{
-        let market = await fetch("https://striveschool-api.herokuapp.com/api/product/", { 
+        let market = await fetch("https://striveschool-api.herokuapp.com/api/product", { 
+        method: 'GET',
         headers: { 
         Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDE0MzJkOWY4MWI0MjAwMTM5YjI3ZWUiLCJpYXQiOjE2NzkwNDUzMzcsImV4cCI6MTY4MDI1NDkzN30.qySwc4UZZVAeCniItmWovOpAW3D_j66d8-LqPsVjRBc" 
         } 
